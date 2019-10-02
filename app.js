@@ -63,7 +63,7 @@ filterTodos(term);
 })
 
 
-// strike out item
+// strikes out item
 todosList.addEventListener('change', e => {
     if(e.target.checked){
 e.target.nextElementSibling.style.textDecoration = "line-through";
