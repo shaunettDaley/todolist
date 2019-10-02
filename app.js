@@ -64,7 +64,7 @@ filterTodos(term);
 
 
 // strike out item
-todoList.addEventListener('change', e => {
+todosList.addEventListener('change', e => {
     if(e.target.checked){
 e.target.nextElementSibling.style.textDecoration = "line-through";
     }else{
