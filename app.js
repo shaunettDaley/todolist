@@ -7,6 +7,7 @@ console.log(todosList);
 const generateTemplate = (todos =>{
     const html = `
     <li class="list-group-item d-flex justify-content-between align-items-center">
+    <input type="checkbox" class="form-control todoDone">
     <span> ${todos}</span>
     <i class="far fa-trash-alt delete"></i>
     </li>
